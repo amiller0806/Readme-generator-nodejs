@@ -28,7 +28,7 @@ message: 'What is the usage of your project?',
 
 { type: 'list',
 name: 'license',
-choices:['MIT','ISC','GPL','BSD','APACHE','APACHE-2.0','lgpl_2_1'],
+choices:['MIT','ISC','GPL','BSD','APACHE','APACHE-2.0','lgpl_2_1', 'none'],
 message: 'What is the license you are using for your project?',
 },
 
