@@ -1,6 +1,9 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {}
+// https://shields.io/category/license 
+// https://docs.github.com/en/rest/licenses
+// https://github.com/Miguel-Con-Queso/README-generator 
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
