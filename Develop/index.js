@@ -1,9 +1,10 @@
-// TODO: Include packages needed for this application
-const inquire = require('inquirer');
-const fs = require('fs'); 
-const generateMarkdown = require('./utils/generateMarkdown.js')
+// Packages needed for this application
+const fs = require('fs');
+const inquirer = require('inquirer');
+const generateMarkdown = require('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
+
+// Array of questions for user input
 const questions = [
     {
         type: 'input',
@@ -55,7 +56,7 @@ message: 'What is your name?',
 
 ];
 
-// TODO: Create a function to write README file
+// Writes README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, generateMarkdown(data), function(err) {
         if (err) {
@@ -66,26 +67,17 @@ function writeToFile(fileName, data) {
     });
 }
 
-// TODO: Create a function to initialize app
+// Initializes app
 function init() {
-    inquire.prompt(questions).then(function(answers) {
+    inquirer.prompt(questions).then(function(answers) {
         // TODO: Create a function to write README file
+            
         writeToFile('README.md', answers);
         
     });
 }
-// fill in blanks first, then do 1-4 if you need more info , really so for other challenges you can 
-//  https://courses.bootcampspot.com/courses/1991/pages/9-dot-1-1-introduction?module_item_id=702061
 
-
-
-// TODO: Go over 1-4 in module so you can see where the 
-// TODO: generateMarkdown stuff is retrieved from/really for understanding 
 
 // Function call to initialize app
 init();
 
-// https://www.npmjs.com/package/inquirer#methods 
-// app.js in 9.5, 9.3.6
-// https://courses.bootcampspot.com/courses/1991/pages/9-dot-3-6-validate-answers?module_item_id=702123
-//TODO: GENERATE  Description, Email, Github, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions

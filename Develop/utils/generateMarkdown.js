@@ -2,8 +2,6 @@ function renderLicenseLink() {
   return `[For Further Information]( https://shields.io/category/license)`
 }
 
-
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   console.log(data);
   return `# ${data.title}
@@ -36,6 +34,9 @@ ${renderLicenseLink()}
 
   ### Installation
   ${data.installation}
+  
+
+
 
   ### Contribution
   ${data.contributors}
@@ -58,3 +59,4 @@ ${data.email}
 }
 
 module.exports = generateMarkdown;
+
