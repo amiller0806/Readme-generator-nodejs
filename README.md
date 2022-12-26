@@ -47,7 +47,7 @@ Tests are not necessary for this application to run.
 
 ## Link to Video 
 Video that shows user going through the application, following the above instructions 
-https://drive.google.com/file/d/1hkQWxlb6_zH14F7LPMzwe6bp-b9X67v-/view
+https://drive.google.com/file/d/1DoM6zH_cgT8gi70FWdmFSv0WUwGJNSXG/preview 
   ### Github
 [Github Profile](https://github.com/amiller0806)
 
