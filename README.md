@@ -46,7 +46,8 @@ Tests are not necessary for this application to run.
 
 
 ## Link to Video 
-<iframe src="https://drive.google.com/file/d/1DoM6zH_cgT8gi70FWdmFSv0WUwGJNSXG/preview" width="640" height="480"></iframe>
+Video that shows user going through the application, following the above instructions 
+https://drive.google.com/file/d/1hkQWxlb6_zH14F7LPMzwe6bp-b9X67v-/view
   ### Github
 [Github Profile](https://github.com/amiller0806)
 
