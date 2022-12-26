@@ -70,7 +70,7 @@ function writeToFile(fileName, data) {
 // Initializes app
 function init() {
     inquirer.prompt(questions).then(function(answers) {
-        // TODO: Create a function to write README file
+    
             
         writeToFile('README.md', answers);
         
